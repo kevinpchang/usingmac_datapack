@@ -1,0 +1,1 @@
+execute as @a at @s[team=Gnome] run function gnome:loop

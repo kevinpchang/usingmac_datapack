@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "run_function": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "rewards": {
+      "function": "race:give_book"
+    }
+  }

@@ -1,0 +1,1 @@
+execute as @e[tag=thrown_mushroom,tag=!motion_added] at @s rotated as @p run function mushroom_throw:apply_motion

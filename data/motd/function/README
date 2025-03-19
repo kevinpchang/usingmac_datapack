@@ -1,0 +1,6 @@
+No input functionality for motd yet.
+To flag for motd to appear use this command:
+/scoreboard players set motd_bool is_there_motd 0
+
+To change motd message use this:
+/data modify storage motd:data message set value '{"text":"TEXT HERE"}'

@@ -1,0 +1,2 @@
+item replace entity @s weapon.mainhand with air
+give @p potion[custom_name='{"bold":true,"color":"dark_purple","text":"Vampire Potion","underlined":true}',potion_contents={custom_color:7274751,custom_effects:[{id:"minecraft:blindness",amplifier:1,duration:60},{id:"minecraft:nausea",amplifier:1,duration:60}]},consumable={sound:"entity.bat.takeoff"},custom_data={vampire:"yes"},enchantment_glint_override=true] 1

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "grant_me": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "vampire:clear"
+  }
+}
