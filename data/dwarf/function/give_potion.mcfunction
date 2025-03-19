@@ -1,2 +1,1 @@
-item replace entity @s weapon.mainhand with air
 give @p potion[custom_name='{"bold":true,"color":"gold","text":"Dwarf Potion","underlined":true}',potion_contents={custom_color:16750848,custom_effects:[{id:"minecraft:blindness",amplifier:1,duration:60},{id:"minecraft:nausea",amplifier:1,duration:60}]},consumable={sound:"block.amethyst_cluster.step"},custom_data={dwarf:"yes"},enchantment_glint_override=true] 1

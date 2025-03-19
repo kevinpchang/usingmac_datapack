@@ -1,6 +1,5 @@
 advancement revoke @s only frog:chose_frog
 execute as @s run function race:reset_race
-team leave @s
 team join Frog
 attribute @s scale base set 0.4
 attribute @s movement_speed base set .12
