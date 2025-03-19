@@ -4,3 +4,4 @@ function vampire:load
 function gnome:load
 function frog:load
 function dwarf:load
+function druid:load

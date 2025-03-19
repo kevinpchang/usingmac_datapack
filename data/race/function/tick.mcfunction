@@ -3,3 +3,4 @@ function vampire:tick
 function gnome:tick
 function frog:tick
 function dwarf:tick
+function druid:tick
