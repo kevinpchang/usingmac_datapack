@@ -1,7 +1,7 @@
 {
     "criteria": {
       "run_function": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:impossible"
       }
     },
     "rewards": {
