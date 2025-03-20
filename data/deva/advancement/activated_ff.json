@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "use": {
+      "trigger":"consume_item",
+      "conditions": {
+        "item": {
+          "items": "totem_of_undying",
+          "components": {
+            "minecraft:custom_data": {"edible":"yes"}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mushroom_throw:throw"
+  }
+}

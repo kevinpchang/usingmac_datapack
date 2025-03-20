@@ -5,4 +5,4 @@ function gnome:load
 function frog:load
 function dwarf:load
 function druid:load
-function seraphim:load
+function deva:load

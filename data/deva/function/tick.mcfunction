@@ -1,1 +1,1 @@
-#function deva:loop
+function deva:loop
