@@ -1,2 +1,1 @@
-#execute as @a at @s[team=Frog] run function frog:loop
-#not used yet
+execute as @a at @s[team=Frog] run function frog:loop

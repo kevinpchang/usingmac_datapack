@@ -1,1 +1,1 @@
-execute as @a at @s[team=Dwarf] run function druid:loop
+#execute as @a at @s[team=Druid] run function druid:loop

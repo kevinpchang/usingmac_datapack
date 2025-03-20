@@ -1,1 +1,1 @@
-execute unless entity @s[team=Dwarf,nbt={active_effects:[{id:"minecraft:haste"}]}] run effect give @s haste infinite 1 true
+execute unless entity @s[team=Dwarf,nbt={active_effects:[{id:"minecraft:haste"}]}] run effect give @s haste infinite 0 true

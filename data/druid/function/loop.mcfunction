@@ -1,2 +1,2 @@
-#execute unless entity @s[team=Druid,nbt={active_effects:[{id:"minecraft:haste"}]}] run effect give @s haste infinite 1 true
-#not used yet
+execute as @a at @s[team=Druid] run function druid:check_block
+schedule function druid:loop 60t
