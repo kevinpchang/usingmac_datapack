@@ -1,0 +1,1 @@
+execute as @a[team=Deva,advancements={deva:activated_ff=true}] at @s run function deva:detect_undead

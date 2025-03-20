@@ -1,1 +1,1 @@
-function deva:loop
+function deva:detect_undead_loop

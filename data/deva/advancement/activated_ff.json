@@ -13,6 +13,6 @@
     }
   },
   "rewards": {
-    "function": "mushroom_throw:throw"
+    "function": "deva:deva_ff_timer"
   }
 }
