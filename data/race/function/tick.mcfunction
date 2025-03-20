@@ -4,3 +4,4 @@ function gnome:tick
 function frog:tick
 function dwarf:tick
 function druid:tick
+function seraphim:tick
