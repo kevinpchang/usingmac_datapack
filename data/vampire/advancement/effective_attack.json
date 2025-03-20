@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "effective_hit": {
+        "trigger": "player_hurt_entity",
+        "conditions": {
+            "player": {
+                "team": "Vampire"
+            },
+            "entity": {
+                "type": "villager"
+            }
+        }
+      }
+    },
+    "rewards": {
+      "function": "vampire:do_extra_damage"
+    }
+  }
