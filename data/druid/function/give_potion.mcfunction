@@ -1,2 +1,2 @@
 item replace entity @s weapon.mainhand with air
-give @p potion[custom_name='{"bold":true,"color":"#6B2E00","text":"Druid Potion","underlined":true}',potion_contents={custom_color:7024128,custom_effects:[{id:"minecraft:blindness",amplifier:1,duration:60},{id:"minecraft:nausea",amplifier:1,duration:60}]},custom_data={druid:"yes"},enchantment_glint_override=true,consumable={sound:"entity.creaking.activate"}] 1
+give @s potion[custom_name='{"bold":true,"color":"#6B2E00","text":"Druid Potion","underlined":true}',potion_contents={custom_color:7024128,custom_effects:[{id:"minecraft:blindness",amplifier:1,duration:60},{id:"minecraft:nausea",amplifier:1,duration:60}]},custom_data={druid:"yes"},enchantment_glint_override=true,consumable={sound:"entity.creaking.activate"}] 1

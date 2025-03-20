@@ -1,0 +1,166 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "usingmac's Book of Races",
+                "color": "yellow",
+                "bold": true,
+                "underlined": true
+              }
+            },
+            {
+              "function": "minecraft:set_book_cover",
+              "author": "usingmac",
+              "generation": 0
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "Gnome\n",
+                  "color": "dark_green",
+                  "bold": true,
+                  "underlined": true,
+                  "clickEvent": {
+                    "action": "run_command",
+                    "value": "/execute at @s run function gnome:give_potion"
+                  },
+                  "hoverEvent": {
+                    "action": "show_text",
+                    "value": {
+                      "text": "Become a Gnome",
+                      "color": "aqua"
+                    }
+                  },
+                  "extra": [
+                    {
+                      "text": "Vampire\n",
+                      "color": "dark_purple",
+                      "bold": true,
+                      "underlined": true,
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/execute at @s run function vampire:give_potion"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Become a Vampire",
+                          "color": "aqua"
+                        }
+                      },
+                      "extra": [
+                        {
+                          "text": "Frog\n",
+                          "color": "green",
+                          "bold": true,
+                          "underlined": true,
+                          "clickEvent": {
+                            "action": "run_command",
+                            "value": "/execute at @s run function frog:give_potion"
+                          },
+                          "hoverEvent": {
+                            "action": "show_text",
+                            "value": {
+                              "text": "Become a Frog",
+                              "color": "aqua"
+                            }
+                          },
+                          "extra": [
+                            {
+                              "text": "Dwarf\n",
+                              "color": "gold",
+                              "bold": true,
+                              "underlined": true,
+                              "clickEvent": {
+                                "action": "run_command",
+                                "value": "/execute at @s run function dwarf:give_potion"
+                              },
+                              "hoverEvent": {
+                                "action": "show_text",
+                                "value": {
+                                  "text": "Become a Dwarf",
+                                  "color": "aqua"
+                                }
+                              },
+                              "extra": [
+                                {
+                                  "text": "Druid\n",
+                                  "color": "#6B2E00",
+                                  "bold": true,
+                                  "underlined": true,
+                                  "clickEvent": {
+                                    "action": "run_command",
+                                    "value": "/execute at @s run function druid:give_potion"
+                                  },
+                                  "hoverEvent": {
+                                    "action": "show_text",
+                                    "value": {
+                                      "text": "Become a Druid",
+                                      "color": "aqua"
+                                    }
+                                  },
+                                  "extra": [
+                                    {
+                                      "text": "Request a Race\n\n\n\n",
+                                      "color": "gray",
+                                      "bold": true,
+                                      "underlined": true,
+                                      "clickEvent": {
+                                        "action": "open_url",
+                                        "value": "https://docs.google.com/forms/d/e/1FAIpQLSdda655lcg42mdtlR8o3Fosdkx1dAz2CHJl75ft8BHX4ZZVJQ/viewform?usp=sharing"
+                                      },
+                                      "hoverEvent": {
+                                        "action": "show_text",
+                                        "value": {
+                                          "text": "Link to the request form",
+                                          "color": "aqua"
+                                        }
+                                      },
+                                      "extra": [
+                                        {
+                                          "text": "Human",
+                                          "color": "dark_gray",
+                                          "bold": true,
+                                          "underlined": true,
+                                          "clickEvent": {
+                                            "action": "run_command",
+                                            "value": "/execute at @s run function race:reset_race"
+                                          },
+                                          "hoverEvent": {
+                                            "action": "show_text",
+                                            "value": {
+                                              "text": "I. Am. Steve.",
+                                              "color": "aqua"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

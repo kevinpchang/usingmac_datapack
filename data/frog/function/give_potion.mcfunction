@@ -1,2 +1,2 @@
 item replace entity @s weapon.mainhand with air
-give @p potion[custom_name='{"bold":true,"color":"green","text":"Frog Potion","underlined":true}',potion_contents={custom_color:655104,custom_effects:[{id:"minecraft:blindness",amplifier:1,duration:60},{id:"minecraft:nausea",amplifier:1,duration:60}]},consumable={sound:"entity.frog.hurt"},custom_data={frog:"yes"},enchantment_glint_override=true] 1
+give @s potion[custom_name='{"bold":true,"color":"green","text":"Frog Potion","underlined":true}',potion_contents={custom_color:655104,custom_effects:[{id:"minecraft:blindness",amplifier:1,duration:60},{id:"minecraft:nausea",amplifier:1,duration:60}]},consumable={sound:"entity.frog.hurt"},custom_data={frog:"yes"},enchantment_glint_override=true] 1
