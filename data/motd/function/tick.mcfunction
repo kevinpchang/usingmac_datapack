@@ -1,1 +1,1 @@
-function motd:loop
+#not used
