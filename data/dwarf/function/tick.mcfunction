@@ -1,1 +1,0 @@
-execute as @a at @s[team=Dwarf] run function dwarf:loop
