@@ -1,0 +1,1 @@
+execute as @a[team=Deva] at @s run function seraphim:repel
