@@ -3,6 +3,9 @@
     "use": {
       "trigger":"consume_item",
       "conditions": {
+        "player": {
+            "team": "Deva"
+          },
         "item": {
           "items": "totem_of_undying",
           "components": {
