@@ -1,2 +1,4 @@
 item replace entity @s weapon.mainhand with air
-give @s potion[custom_name='{"bold":true,"color":"#e9dc9e","text":"Deva Potion","underlined":true}',potion_contents={custom_color:15326366,custom_effects:[{id:"minecraft:blindness",amplifier:1,duration:60},{id:"minecraft:nausea",amplifier:1,duration:60}]},consumable={sound:"block.bell.resonate"},custom_data={deva:"yes"},enchantment_glint_override=true] 1
+tag @s add deva
+loot give @s loot race:potions
+tag @s remove deva
