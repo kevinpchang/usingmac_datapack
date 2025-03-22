@@ -1,0 +1,85 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "custom_color": 720667,
+                    "custom_effects": [
+                      {
+                        "id": "minecraft:blindness",
+                        "amplifier": 1,
+                        "duration": 60
+                      }
+                    ]
+                  },
+                  "minecraft:consumable": {
+                    "sound": {
+                      "sound_id": "enity.allay.ambient_with_item"
+                    }
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:custom_data": {"gnome":"yes"},
+                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"dark_green\",\"text\":\"Gnome Potion\",\"underlined\":true}"
+                }
+              }
+            ],
+            "conditions": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags:[\"gnome\"]}"
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:potion_contents": {
+                    "custom_color": 720667,
+                    "custom_effects": [
+                      {
+                        "id": "minecraft:blindness",
+                        "amplifier": 1,
+                        "duration": 60
+                      }
+                    ]
+                  },
+                  "minecraft:consumable": {
+                    "sound": {
+                      "sound_id": "enity.allay.ambient_with_item"
+                    }
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:custom_data": {"frog":"yes"},
+                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"green\",\"text\":\"Frog Potion\",\"underlined\":true}"
+                }
+              }
+            ],
+            "conditions": [
+                {
+                    "condition": "entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "nbt": "{Tags:[\"frog\"]}"
+                    }
+                }
+            ] 
+          }
+        ]
+      }
+    ]
+  }
