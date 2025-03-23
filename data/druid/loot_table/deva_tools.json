@@ -5,12 +5,12 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "mace",
+                    "name": "bow",
                     "functions": [
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{\"bold\":true,\"color\":\"#ffd965\",\"text\":\"Divine Mace\",\"underlined\":true}",
+                                "item_name": "{\"bold\":true,\"color\":\"#ff9d65\",\"text\":\"Moonthorn Bow\",\"underlined\":true}",
                                 "lore": [
                                     "{\"color\":\"gold\",\"text\":\"Smite all thou that art undead\"}"
                                 ],
@@ -34,9 +34,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{\"bold\":true,\"color\":\"#ffd965\",\"text\":\"Divine Cookie\",\"underlined\":true}",
+                                "item_name": "{\"bold\":true,\"color\":\"#ff9d65\",\"text\":\"Moonthorn Arrow\",\"underlined\":true}",
                                 "lore": [
-                                    "{\"color\":\"gold\",\"text\":\"Hold in your hands for protection, or consume for temporary divine powers\"}"
+                                    "{\"color\":\"gold\",\"text\":\"Use as ammunition, or consume for temporary druidic powers\"}"
                                 ],
                                 "consumable": {
                                     "consume_seconds": 3,
