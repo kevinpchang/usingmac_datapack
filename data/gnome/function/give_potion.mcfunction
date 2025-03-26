@@ -1,4 +1,3 @@
-say hi
 scoreboard players reset @s gnome_become
 scoreboard players enable @s gnome_become
 advancement revoke @s only race:temp_race_adavancements/gnome_trigger

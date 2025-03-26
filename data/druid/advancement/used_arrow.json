@@ -1,18 +1,18 @@
 {
-    "criteria": {
-      "use": {
-        "trigger": "minecraft:consume_item",
-        "conditions": {
-          "item": {
-            "items": "minecraft:arrow",
-            "components": {
-              "minecraft:custom_data": {"edible":"yes"}
-            }
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:arrow",
+          "components": {
+            "minecraft:custom_data": {"edible":"true"}
           }
         }
       }
-    },
-    "rewards": {
-      "function": "druid:raycast/start"
     }
+  },
+  "rewards": {
+    "function": "druid:raycast/start"
   }
+}

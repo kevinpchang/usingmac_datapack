@@ -1,3 +1,4 @@
+loot give @s loot deva:deva_cookie
 execute as @a[team=Deva,advancements={deva:activated_ff=true}] at @s if score @s deva_eat_totem matches ..0 run scoreboard players add @s deva_eat_totem 61
 execute as @a[team=Deva,advancements={deva:activated_ff=true}] at @s if score @s deva_eat_totem matches 1.. run scoreboard players remove @s deva_eat_totem 1
 execute as @a[team=Deva,advancements={deva:activated_ff=true},nbt=!{active_effects:[{id:"minecraft:strength"}]}] at @s if score @s deva_eat_totem matches 1.. run effect give @s strength infinite 1 true

@@ -22,12 +22,13 @@
                   },
                   "minecraft:consumable": {
                     "sound": {
-                      "sound_id": "enity.allay.ambient_with_item"
+                      "sound_id": "entity.allay.ambient_with_item"
                     }
                   },
                   "minecraft:enchantment_glint_override": true,
                   "minecraft:custom_data": {"gnome":"yes"},
-                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"dark_green\",\"text\":\"Gnome Potion\",\"underlined\":true}"
+                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"dark_green\",\"text\":\"Gnome Potion\",\"underlined\":true}",
+                  "!use_remainder": {}
                 }
               }
             ],
@@ -65,7 +66,8 @@
                   },
                   "minecraft:enchantment_glint_override": true,
                   "minecraft:custom_data": {"vampire":"yes"},
-                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"dark_purple\",\"text\":\"Vampire Potion\",\"underlined\":true}"
+                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"dark_purple\",\"text\":\"Vampire Potion\",\"underlined\":true}",
+                  "!use_remainder": {}
                 }
               }
             ],
@@ -98,12 +100,13 @@
                   },
                   "minecraft:consumable": {
                     "sound": {
-                      "sound_id": "enity.frog.death"
+                      "sound_id": "entity.frog.death"
                     }
                   },
                   "minecraft:enchantment_glint_override": true,
                   "minecraft:custom_data": {"frog":"yes"},
-                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"green\",\"text\":\"Frog Potion\",\"underlined\":true}"
+                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"green\",\"text\":\"Frog Potion\",\"underlined\":true}",
+                  "!use_remainder": {}
                 }
               }
             ],
@@ -141,7 +144,8 @@
                   },
                   "minecraft:enchantment_glint_override": true,
                   "minecraft:custom_data": {"dwarf":"yes"},
-                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"gold\",\"text\":\"Dwarf Potion\",\"underlined\":true}"
+                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"gold\",\"text\":\"Dwarf Potion\",\"underlined\":true}",
+                  "!use_remainder": {}
                 }
               }
             ],
@@ -179,7 +183,8 @@
                   },
                   "minecraft:enchantment_glint_override": true,
                   "minecraft:custom_data": {"druid":"yes"},
-                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"gold\",\"text\":\"Druid Potion\",\"underlined\":true}"
+                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"gold\",\"text\":\"Druid Potion\",\"underlined\":true}",
+                  "!use_remainder": {}
                 }
               }
             ],
@@ -217,7 +222,8 @@
                   },
                   "minecraft:enchantment_glint_override": true,
                   "minecraft:custom_data": {"deva":"yes"},
-                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"#FCFF95\",\"text\":\"Deva Potion\",\"underlined\":true}"
+                  "minecraft:custom_name": "{\"bold\":true,\"color\":\"#FCFF95\",\"text\":\"Deva Potion\",\"underlined\":true}",
+                  "!use_remainder": {}
                 }
               }
             ],

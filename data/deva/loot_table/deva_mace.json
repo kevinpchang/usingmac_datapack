@@ -1,0 +1,28 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "mace",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "{\"bold\":true,\"color\":\"#ffd965\",\"text\":\"Divine Mace\",\"underlined\":true}",
+                                "lore": [
+                                    "{\"color\":\"gold\",\"text\":\"Smite all thou that art undead\"}"
+                                ],
+                                "enchantments": {
+                                    "smite": 10,
+                                    "fire_aspect": 2
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
