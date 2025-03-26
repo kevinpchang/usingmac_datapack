@@ -1,7 +1,7 @@
 loot give @s loot deva:deva_cookie
 execute as @a[team=Deva,advancements={deva:activated_ff=true}] at @s if score @s deva_eat_totem matches ..0 run scoreboard players add @s deva_eat_totem 61
 execute as @a[team=Deva,advancements={deva:activated_ff=true}] at @s if score @s deva_eat_totem matches 1.. run scoreboard players remove @s deva_eat_totem 1
-execute as @a[team=Deva,advancements={deva:activated_ff=true},nbt=!{active_effects:[{id:"minecraft:strength"}]}] at @s if score @s deva_eat_totem matches 1.. run effect give @s strength infinite 1 true
+execute as @a[team=Deva,advancements={deva:activated_ff=true},nbt=!{active_effects:[{id:"minecraft:strength"}]}] at @s if score @s deva_eat_totem matches 1.. run effect give @s strength infinite 2 true
 execute as @a[team=Deva,advancements={deva:activated_ff=true},nbt=!{active_effects:[{id:"minecraft:speed"}]}] at @s if score @s deva_eat_totem matches 1.. run effect give @s speed infinite 1 true
 execute as @a[team=Deva,advancements={deva:activated_ff=true},nbt=!{active_effects:[{id:"minecraft:luck"}]}] at @s if score @s deva_eat_totem matches 1.. run effect give @s luck infinite 0 true
 execute as @a[team=Deva,advancements={deva:activated_ff=true}] at @s run particle minecraft:end_rod ~ ~1 ~ 2 2 2 .05 20 force @s
