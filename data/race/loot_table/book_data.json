@@ -31,7 +31,7 @@
                   "underlined": true,
                   "clickEvent": {
                     "action": "run_command",
-                    "value": "/execute at @s run function gnome:give_potion"
+                    "value": "/trigger gnome_become set -42"
                   },
                   "hoverEvent": {
                     "action": "show_text",
@@ -48,7 +48,7 @@
                       "underlined": true,
                       "clickEvent": {
                         "action": "run_command",
-                        "value": "/execute at @s run function vampire:give_potion"
+                        "value": "/trigger vampire_become set -42"
                       },
                       "hoverEvent": {
                         "action": "show_text",
@@ -65,7 +65,7 @@
                           "underlined": true,
                           "clickEvent": {
                             "action": "run_command",
-                            "value": "/execute at @s run function frog:give_potion"
+                            "value": "/trigger frog_become set -42"
                           },
                           "hoverEvent": {
                             "action": "show_text",
@@ -82,7 +82,7 @@
                               "underlined": true,
                               "clickEvent": {
                                 "action": "run_command",
-                                "value": "/execute at @s run function dwarf:give_potion"
+                                "value": "/trigger dwarf_become set -42"
                               },
                               "hoverEvent": {
                                 "action": "show_text",
@@ -99,7 +99,7 @@
                                   "underlined": true,
                                   "clickEvent": {
                                     "action": "run_command",
-                                    "value": "/execute at @s run function druid:give_potion"
+                                    "value": "/trigger druid_become set -42"
                                   },
                                   "hoverEvent": {
                                     "action": "show_text",
@@ -116,7 +116,7 @@
                                       "underlined": true,
                                       "clickEvent": {
                                         "action": "run_command",
-                                        "value": "/execute at @s run function deva:give_potion"
+                                        "value": "/trigger deva_become set -42"
                                       },
                                       "hoverEvent": {
                                         "action": "show_text",
@@ -127,40 +127,59 @@
                                       },
                                       "extra": [
                                         {
-                                          "text": "Request a Race\n\n\n\n",
+                                          "text": "\nRead about Race Traits\n",
                                           "color": "gray",
                                           "bold": true,
                                           "underlined": true,
                                           "clickEvent": {
                                             "action": "open_url",
-                                            "value": "https://docs.google.com/forms/d/e/1FAIpQLSdda655lcg42mdtlR8o3Fosdkx1dAz2CHJl75ft8BHX4ZZVJQ/viewform?usp=sharing"
+                                            "value": "https://docs.google.com/spreadsheets/d/1lTEUOu0V8kvb8ZVFx3dPj7Qo1prDRK2bcWRVgu7aGkc/edit?gid=0#gid=0"
                                           },
                                           "hoverEvent": {
                                             "action": "show_text",
                                             "value": {
-                                              "text": "Link to the request form",
+                                              "text": "Link to the race google sheets",
                                               "color": "aqua"
                                             }
                                           },
                                           "extra": [
                                             {
-                                              "text": "Human",
-                                              "color": "dark_gray",
+                                              "text": "Request a Race\n\n\n\n",
+                                              "color": "gray",
                                               "bold": true,
                                               "underlined": true,
                                               "clickEvent": {
-                                                "action": "run_command",
-                                                "value": "/execute at @s run function race:reset_race"
+                                                "action": "open_url",
+                                                "value": "https://docs.google.com/forms/d/e/1FAIpQLSdda655lcg42mdtlR8o3Fosdkx1dAz2CHJl75ft8BHX4ZZVJQ/viewform?usp=sharing"
                                               },
                                               "hoverEvent": {
                                                 "action": "show_text",
                                                 "value": {
-                                                  "text": "I. Am. Steve.",
+                                                  "text": "Link to the request form",
                                                   "color": "aqua"
                                                 }
-                                              }
+                                              },
+                                              "extra": [
+                                                {
+                                                  "text": "Human",
+                                                  "color": "dark_gray",
+                                                  "bold": true,
+                                                  "underlined": true,
+                                                  "clickEvent": {
+                                                    "action": "run_command",
+                                                    "value": "/execute at @s run function race:reset_race"
+                                                  },
+                                                  "hoverEvent": {
+                                                    "action": "show_text",
+                                                    "value": {
+                                                      "text": "I. Am. Steve.",
+                                                      "color": "aqua"
+                                                    }
+                                                  }
+                                                }
+                                              ]
                                             }
-                                          ]
+                                          ]  
                                         }
                                       ]
                                     }
@@ -183,3 +202,4 @@
     }
   ]
 }
+

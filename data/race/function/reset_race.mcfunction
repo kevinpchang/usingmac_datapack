@@ -1,8 +1,9 @@
 playsound entity.experience_orb.pickup neutral @s
 team leave @s
 effect clear @s
+advancement revoke @s only race:temp_race_adavancements/human_trigger
 advancement revoke @s only deva:activated_ff
-scoreboard players set @s deva_eat_totem 0
+scoreboard players reset @s deva_eat_totem
 attribute @s armor base reset
 attribute @s armor_toughness base reset
 attribute @s attack_damage base reset

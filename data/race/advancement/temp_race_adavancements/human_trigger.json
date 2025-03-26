@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "run_function": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "race:reset_race"
+  }
+}

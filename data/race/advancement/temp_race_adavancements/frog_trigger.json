@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "run_function": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "frog:give_potion"
+  }
+}
