@@ -1,0 +1,1 @@
+execute unless block ~ ~-1 ~ #druid_target_invalid_blocks run function druid:create_roots
