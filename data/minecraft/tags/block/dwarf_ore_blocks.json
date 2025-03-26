@@ -1,0 +1,10 @@
+{
+    "values": [
+        "#gold_ores",
+        "#iron_ores",
+        "#lapis_ores",
+        "#diamond_ores",
+        "#emerald_ores",
+        "ancient_debris"
+    ]
+}

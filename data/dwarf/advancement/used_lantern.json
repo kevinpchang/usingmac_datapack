@@ -4,15 +4,15 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": "minecraft:potion",
+          "items": "minecraft:lantern",
           "components": {
-            "minecraft:custom_data": {"dwarf":"yes"}
+            "minecraft:custom_data": {"edible":"yes"}
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "dwarf:become_dwarf"
+    "function": "dwarf:find_ore"
   }
 }
