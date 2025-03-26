@@ -10,14 +10,14 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{\"bold\":true,\"color\":\"#ac9c45\",\"text\":\"Dwarven Pick\",\"underlined\":true}",
+                                "item_name": {"bold":true,"color":"#ac9c45","text":"Dwarven Pick","underlined":true},
                                 "lore": [
-                                    "{\"color\":\"#ac9c45\",\"text\":\"A magical pickaxe faster than normal pickaxes\"}"
+                                    {"color":"#ac9c45","text":"A magical pickaxe faster than most"}
                                 ],
                                 "enchantments": {
                                     "efficiency": 10
                                 },
-                                "unbreakable": {"show_in_tooltip": false}
+                                "unbreakable": {}
                             }
                         }
                     ]

@@ -29,11 +29,11 @@
                   "color": "dark_green",
                   "bold": true,
                   "underlined": true,
-                  "clickEvent": {
+                  "click_event": {
                     "action": "run_command",
-                    "value": "/trigger gnome_become set -42"
+                    "command": "/trigger gnome_become set -42"
                   },
-                  "hoverEvent": {
+                  "hover_event": {
                     "action": "show_text",
                     "value": {
                       "text": "Become a Gnome",
@@ -46,11 +46,11 @@
                       "color": "dark_purple",
                       "bold": true,
                       "underlined": true,
-                      "clickEvent": {
+                      "click_event": {
                         "action": "run_command",
-                        "value": "/trigger vampire_become set -42"
+                        "command": "/trigger vampire_become set -42"
                       },
-                      "hoverEvent": {
+                      "hover_event": {
                         "action": "show_text",
                         "value": {
                           "text": "Become a Vampire",
@@ -63,11 +63,11 @@
                           "color": "green",
                           "bold": true,
                           "underlined": true,
-                          "clickEvent": {
+                          "click_event": {
                             "action": "run_command",
-                            "value": "/trigger frog_become set -42"
+                            "command": "/trigger frog_become set -42"
                           },
-                          "hoverEvent": {
+                          "hover_event": {
                             "action": "show_text",
                             "value": {
                               "text": "Become a Frog",
@@ -80,11 +80,11 @@
                               "color": "gold",
                               "bold": true,
                               "underlined": true,
-                              "clickEvent": {
+                              "click_event": {
                                 "action": "run_command",
-                                "value": "/trigger dwarf_become set -42"
+                                "command": "/trigger dwarf_become set -42"
                               },
-                              "hoverEvent": {
+                              "hover_event": {
                                 "action": "show_text",
                                 "value": {
                                   "text": "Become a Dwarf",
@@ -97,11 +97,11 @@
                                   "color": "#6B2E00",
                                   "bold": true,
                                   "underlined": true,
-                                  "clickEvent": {
+                                  "click_event": {
                                     "action": "run_command",
-                                    "value": "/trigger druid_become set -42"
+                                    "command": "/trigger druid_become set -42"
                                   },
-                                  "hoverEvent": {
+                                  "hover_event": {
                                     "action": "show_text",
                                     "value": {
                                       "text": "Become a Druid",
@@ -114,11 +114,11 @@
                                       "color": "#cabd78",
                                       "bold": true,
                                       "underlined": true,
-                                      "clickEvent": {
+                                      "click_event": {
                                         "action": "run_command",
-                                        "value": "/trigger deva_become set -42"
+                                        "command": "/trigger deva_become set -42"
                                       },
-                                      "hoverEvent": {
+                                      "hover_event": {
                                         "action": "show_text",
                                         "value": {
                                           "text": "Become a Deva",
@@ -131,11 +131,11 @@
                                           "color": "gray",
                                           "bold": true,
                                           "underlined": true,
-                                          "clickEvent": {
+                                          "click_event": {
                                             "action": "open_url",
-                                            "value": "https://docs.google.com/spreadsheets/d/1lTEUOu0V8kvb8ZVFx3dPj7Qo1prDRK2bcWRVgu7aGkc/edit?gid=0#gid=0"
+                                            "url": "https://docs.google.com/spreadsheets/d/1lTEUOu0V8kvb8ZVFx3dPj7Qo1prDRK2bcWRVgu7aGkc/edit?gid=0#gid=0"
                                           },
-                                          "hoverEvent": {
+                                          "hover_event": {
                                             "action": "show_text",
                                             "value": {
                                               "text": "Link to the race google sheets",
@@ -148,11 +148,11 @@
                                               "color": "gray",
                                               "bold": true,
                                               "underlined": true,
-                                              "clickEvent": {
+                                              "click_event": {
                                                 "action": "open_url",
-                                                "value": "https://docs.google.com/forms/d/e/1FAIpQLSdda655lcg42mdtlR8o3Fosdkx1dAz2CHJl75ft8BHX4ZZVJQ/viewform?usp=sharing"
+                                                "url": "https://docs.google.com/forms/d/e/1FAIpQLSdda655lcg42mdtlR8o3Fosdkx1dAz2CHJl75ft8BHX4ZZVJQ/viewform?usp=sharing"
                                               },
-                                              "hoverEvent": {
+                                              "hover_event": {
                                                 "action": "show_text",
                                                 "value": {
                                                   "text": "Link to the request form",
@@ -165,11 +165,11 @@
                                                   "color": "dark_gray",
                                                   "bold": true,
                                                   "underlined": true,
-                                                  "clickEvent": {
+                                                  "click_event": {
                                                     "action": "run_command",
-                                                    "value": "/execute at @s run function race:reset_race"
+                                                    "command": "/execute at @s run function race:reset_race"
                                                   },
-                                                  "hoverEvent": {
+                                                  "hover_event": {
                                                     "action": "show_text",
                                                     "value": {
                                                       "text": "I. Am. Steve.",

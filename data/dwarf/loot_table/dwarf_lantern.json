@@ -10,9 +10,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{\"bold\":true,\"color\":\"#ac9c45\",\"text\":\"Dwarven Lantern\",\"underlined\":true}",
+                                "item_name": {"bold":true,"color":"#ac9c45","text":"Dwarven Lantern","underlined":true},
                                 "lore": [
-                                    "{\"color\":\"#ac9c45\",\"text\":\"(Right click) A magical lantern that guides Dwarves to precious ores\"}"
+                                    {"color":"#ac9c45","text":"(Hold Right click) A magical lantern that guides Dwarves to precious ores"}
                                 ],
                                 "consumable": {
                                     "consume_seconds": 3,

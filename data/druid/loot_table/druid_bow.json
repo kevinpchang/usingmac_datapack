@@ -10,9 +10,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{\"bold\":true,\"color\":\"#8a4921\",\"text\":\"Moonthorn Bow\",\"underlined\":true}",
+                                "item_name": {"bold":true,"color":"#8a4921","text":"Moonthorn Bow","underlined":true},
                                 "lore": [
-                                    "{\"color\":\"#8a4921\",\"text\":\"A magical bow crafted from the branches of the Moonthorn Tree\"}"
+                                    {"color":"#8a4921","text":"A magical bow crafted from the branches of the Moonthorn Tree"}
                                 ],
                                 "enchantments": {
                                     "infinity": 10

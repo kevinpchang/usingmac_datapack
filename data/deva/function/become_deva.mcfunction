@@ -1,3 +1,4 @@
+scoreboard players set @s deva_eat_totem 0
 advancement revoke @s only deva:chose_deva
 execute as @s run function race:reset_race
 team join Deva @s

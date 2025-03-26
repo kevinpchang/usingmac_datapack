@@ -10,9 +10,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{\"bold\":true,\"color\":\"#8a4921\",\"text\":\"Moonthorn Arrow\",\"underlined\":true}",
+                                "item_name": {"bold":true,"color":"#8a4921","text":"Moonthorn Arrow","underlined":true},
                                 "lore": [
-                                    "{\"color\":\"#8a4921\",\"text\":\"Point (and hold right click) at your enemies and Mother Earth will hold them in place\"}"
+                                    {"color":"#8a4921","text":"Point (And Hold Right Click) at your enemies and Mother Earth will hold them in place"}
                                 ],
                                 "consumable": {
                                     "consume_seconds": 1,

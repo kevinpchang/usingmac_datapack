@@ -10,9 +10,9 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "item_name": "{\"bold\":true,\"color\":\"#ffd965\",\"text\":\"Divine Cookie\",\"underlined\":true}",
+                                "item_name": {"bold":true,"color":"#ffd965","text":"Divine Cookie","underlined":true},
                                 "lore": [
-                                    "{\"color\":\"gold\",\"text\":\"Hold in your hands for protection, or consume for temporary divine powers\"}"
+                                    {"color":"gold","text":"Hold in your hands for protection, or consume for temporary divine powers"}
                                 ],
                                 "consumable": {
                                     "consume_seconds": 3,
