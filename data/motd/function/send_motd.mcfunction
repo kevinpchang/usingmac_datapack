@@ -1,1 +1,1 @@
-tellraw @a {"nbt":"message","storage":"motd:data","interpret":true,"color":"dark_red"}
+tellraw @a {"nbt":"message","storage":"motd:data","interpret":true,"color":"blue",click_event:{"action":"open_url",url:"https://drive.google.com/file/d/1CHUkmq9wnze0QS-qvFeRKWFpSHEixc6X/view?usp=sharing"},hover_event:{action:"show_text","value":"pls download this resource pack :P"}}
