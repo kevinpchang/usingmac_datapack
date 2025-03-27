@@ -1,0 +1,8 @@
+{
+    "function": "minecraft:set_components",
+    "components": {
+        "dyed_color": 4203395,
+        "item_name": {"color": "red","text": "DO NOT REMOVE OR DROP"},
+        "minecraft:glider": {}
+    }
+  }

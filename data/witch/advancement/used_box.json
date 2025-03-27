@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "place": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"witch_hold_box\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "witch:open_witch_box"
+  }
+}

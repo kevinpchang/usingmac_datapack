@@ -17,7 +17,19 @@
                                 "enchantments": {
                                     "efficiency": 10
                                 },
-                                "unbreakable": {}
+                                "consumable":{
+                                    "animation": "toot_horn",
+                                    "consume_seconds": 1,
+                                    "has_consume_particles": false,
+                                    "sound": "block.amethyst_block.resonate"
+                                },
+                                "unbreakable": {},
+                                "!enchantable": {},
+                                "use_cooldown": {
+                                    "seconds": 10,
+                                    "cooldown_group": "dwarf_pick"
+                                },
+                                "custom_data": {"edible":"yes"}
                             }
                         }
                     ]

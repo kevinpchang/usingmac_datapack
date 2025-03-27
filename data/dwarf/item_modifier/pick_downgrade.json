@@ -1,0 +1,14 @@
+{
+    "function": "set_components",
+    "components": {
+        "enchantments": {},
+        "item_name": {"bold":true,"color":"#ac9c45","text":"Dwarven Pick","underlined":true},
+        "lore": [
+            {"color":"#ac9c45","text":"A magical pickaxe faster than most"}
+        ],
+        "use_cooldown":{
+            "seconds": 10,
+            "cooldown_group": "dwarf_pick"
+        }
+    }
+}

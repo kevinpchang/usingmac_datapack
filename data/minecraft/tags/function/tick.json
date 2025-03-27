@@ -1,6 +1,5 @@
 {
     "values": [
-        "mushroom_throw:tick",
         "race:tick",
         "motd:tick"
     ]

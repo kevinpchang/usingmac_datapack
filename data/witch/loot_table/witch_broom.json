@@ -1,0 +1,37 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wheat",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": {"bold":true,"color":"#8736e4","text":"Broken Witch Broom","underlined":true},
+                                "lore": [
+                                    {"color":"#8736e4","text":"Broken but effective... (Right Click & Hit Space In Midair) "}
+                                ],
+                                "attribute_modifiers": [{"id": "minecraft:","type": "block_interaction_range","amount": -1,"operation": "add_multiplied_total","slot": "mainhand"}],
+                                "unbreakable": {},
+                                "consumable": {
+                                    "animation": "bundle",
+                                    "consume_seconds": 0.05,
+                                    "has_consume_particles": false,
+                                    "sound": "entity.witch.celebrate"
+                                },
+                                "custom_data": {"broom":"yes"},
+                                "use_cooldown": {
+                                    "seconds": 3,
+                                    "cooldown_group": "witch_broom"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

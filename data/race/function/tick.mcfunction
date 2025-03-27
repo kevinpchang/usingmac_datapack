@@ -5,3 +5,4 @@ function frog:tick
 function dwarf:tick
 function druid:tick
 function deva:tick
+function witch:tick

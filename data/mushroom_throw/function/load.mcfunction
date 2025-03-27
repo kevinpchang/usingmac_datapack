@@ -1,7 +1,0 @@
-scoreboard objectives add mushroom_motion_x1 dummy
-scoreboard objectives add mushroom_motion_y1 dummy
-scoreboard objectives add mushroom_motion_z1 dummy
-
-scoreboard objectives add mushroom_motion_x2 dummy
-scoreboard objectives add mushroom_motion_y2 dummy
-scoreboard objectives add mushroom_motion_z2 dummy

@@ -127,59 +127,78 @@
                                       },
                                       "extra": [
                                         {
-                                          "text": "\nRead about Race Traits\n",
-                                          "color": "gray",
+                                          "text": "Witch\n",
+                                          "color": "#8736e4",
                                           "bold": true,
                                           "underlined": true,
                                           "click_event": {
-                                            "action": "open_url",
-                                            "url": "https://docs.google.com/spreadsheets/d/1lTEUOu0V8kvb8ZVFx3dPj7Qo1prDRK2bcWRVgu7aGkc/edit?gid=0#gid=0"
+                                            "action": "run_command",
+                                            "command": "/trigger witch_become set -42"
                                           },
                                           "hover_event": {
                                             "action": "show_text",
                                             "value": {
-                                              "text": "Link to the race google sheets",
+                                              "text": "Become a Witch",
                                               "color": "aqua"
                                             }
                                           },
                                           "extra": [
                                             {
-                                              "text": "Request a Race\n\n\n\n",
+                                              "text": "\nRead about Race Traits\n",
                                               "color": "gray",
                                               "bold": true,
                                               "underlined": true,
                                               "click_event": {
                                                 "action": "open_url",
-                                                "url": "https://docs.google.com/forms/d/e/1FAIpQLSdda655lcg42mdtlR8o3Fosdkx1dAz2CHJl75ft8BHX4ZZVJQ/viewform?usp=sharing"
+                                                "url": "https://docs.google.com/spreadsheets/d/1lTEUOu0V8kvb8ZVFx3dPj7Qo1prDRK2bcWRVgu7aGkc/edit?gid=0#gid=0"
                                               },
                                               "hover_event": {
                                                 "action": "show_text",
                                                 "value": {
-                                                  "text": "Link to the request form",
+                                                  "text": "Link to the race google sheets",
                                                   "color": "aqua"
                                                 }
                                               },
                                               "extra": [
                                                 {
-                                                  "text": "Human",
-                                                  "color": "dark_gray",
+                                                  "text": "Request a Race\n\n\n",
+                                                  "color": "gray",
                                                   "bold": true,
                                                   "underlined": true,
                                                   "click_event": {
-                                                    "action": "run_command",
-                                                    "command": "/execute at @s run function race:reset_race"
+                                                    "action": "open_url",
+                                                    "url": "https://docs.google.com/forms/d/e/1FAIpQLSdda655lcg42mdtlR8o3Fosdkx1dAz2CHJl75ft8BHX4ZZVJQ/viewform?usp=sharing"
                                                   },
                                                   "hover_event": {
                                                     "action": "show_text",
                                                     "value": {
-                                                      "text": "I. Am. Steve.",
+                                                      "text": "Link to the request form",
                                                       "color": "aqua"
                                                     }
-                                                  }
+                                                  },
+                                                  "extra": [
+                                                    {
+                                                      "text": "Human",
+                                                      "color": "dark_gray",
+                                                      "bold": true,
+                                                      "underlined": true,
+                                                      "click_event": {
+                                                        "action": "run_command",
+                                                        "command": "/execute at @s run function race:reset_race"
+                                                      },
+                                                      "hover_event": {
+                                                        "action": "show_text",
+                                                        "value": {
+                                                          "text": "I. Am. Steve.",
+                                                          "color": "aqua"
+                                                        }
+                                                      }
+                                                    }
+                                                  ]
                                                 }
-                                              ]
+                                              ]  
                                             }
-                                          ]  
+                                          ]
                                         }
                                       ]
                                     }
@@ -194,7 +213,7 @@
                   ]
                 }
               ],
-              "mode": "replace_all"
+              "mode": "append"
             }
           ]
         }

@@ -4,15 +4,15 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": "minecraft:red_mushroom",
+          "items": "minecraft:wheat",
           "components": {
-            "minecraft:custom_data": {"edible":"yes"}
+            "minecraft:custom_data": {"broom":"yes"}
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "mushroom_throw:throw"
+    "function": "witch:witch_fly"
   }
 }

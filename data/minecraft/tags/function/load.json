@@ -1,6 +1,5 @@
 {
     "values": [
-        "mushroom_throw:load",
         "race:load",
         "motd:load"
     ]

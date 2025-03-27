@@ -1,2 +1,0 @@
-execute as @a[advancements={mushroom_throw:threw_mushroom=true}] at @s run function mushroom_throw:throw
-execute as @a[nbt={SelectedItem:{id:"minecraft:red_mushroom",components:{"minecraft:custom_data":{"edible":"yes"}}}}] at @s run function mushroom_throw:loop

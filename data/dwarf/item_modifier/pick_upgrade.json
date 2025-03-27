@@ -1,0 +1,13 @@
+{
+    "function": "set_components",
+    "components": {
+        "enchantments": {"fortune": 10,"efficiency": 10},
+        "item_name": {"text":"Super Duper Magic Dwarven Pick","color": "#00ccff","bold": true,"font": "uniform"},
+        "lore": [{"text": "The name says it all"}],
+        "use_cooldown":{
+            "seconds": 10,
+            "cooldown_group": "dwarf_pick"
+        },
+        "custom_data": {"upgraded_pick":true}
+    }
+}

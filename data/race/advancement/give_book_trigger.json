@@ -1,10 +1,10 @@
 {
-    "criteria": {
-      "run_function": {
-        "trigger": "minecraft:impossible"
-      }
-    },
-    "rewards": {
-      "function": "race:give_book"
+  "criteria": {
+    "run_function": {
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "function": "race:give_book"
+  }
 }

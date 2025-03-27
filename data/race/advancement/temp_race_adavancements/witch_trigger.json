@@ -1,10 +1,10 @@
 {
   "criteria": {
-    "use": {
+    "run_function": {
       "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
-    "function": "druid:refund_arrow"
+    "function": "witch:give_potion"
   }
 }

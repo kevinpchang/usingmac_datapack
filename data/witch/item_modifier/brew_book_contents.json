@@ -1,0 +1,158 @@
+{
+    "function": "set_written_book_pages",
+    "mode": "insert",
+    "pages": [
+        {
+            "text": "Fire Resistance\n",
+            "color": "#ce6e00",
+            "bold": true,
+            "underlined": true,
+            "click_event": {
+                "action": "run_command",
+                "command": "/loot give @s loot witch:potions/fire_resistance"
+            },
+            "extra": [
+                {
+                    "text": "Harming\n",
+                    "color": "#460000",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/harming"
+                    }
+                },
+                {
+                    "text": "Healing\n",
+                    "color": "#ff0000",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/healing"
+                    }
+                },
+                {
+                    "text": "Invisibility\n",
+                    "color": "#dec7ff",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/invisibility"
+                    }
+                },
+                {
+                    "text": "Leaping\n",
+                    "color": "#cacc5d",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/leaping"
+                    }
+                },
+                {
+                    "text": "Luck\n",
+                    "color": "#267538",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/luck"
+                    }
+                },
+                {
+                    "text": "Night Vision\n",
+                    "color": "#cfff81",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/night_vision"
+                    }
+                },
+                {
+                    "text": "Poison\n",
+                    "color": "#67915c",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/poison"
+                    }
+                },
+                {
+                    "text": "Regeneration\n",
+                    "color": "#b878b8",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/regeneration"
+                    }
+                },
+                {
+                    "text": "Slow Falling\n",
+                    "color": "#d3b599",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/slow_falling"
+                    }
+                },
+                {
+                    "text": "Slowness\n",
+                    "color": "#5c5c5c",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/slowness"
+                    }
+                },
+                {
+                    "text": "Strength\n",
+                    "color": "#dfb62f",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/strength"
+                    }
+                },
+                {
+                    "text": "Swiftness\n",
+                    "color": "#049fff",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/swiftness"
+                    }
+                },
+                {
+                    "text": "Water Breathing\n",
+                    "color": "#6aa1a8",
+                    "bold": true,
+                    "underlined": true,
+                    "click_event": {
+                        "action": "run_command",
+                        "command": "/loot give @s loot witch:potions/water_breathing"
+                    }
+                }
+            ]
+        },
+        {
+            "text": "Weakness\n",
+            "color": "#2d3d2b",
+            "bold": true,
+            "underlined": true,
+            "click_event": {
+                "action": "run_command",
+                "command": "/loot give @s loot witch:potions/weakness"
+            }
+        }
+    ]
+}
