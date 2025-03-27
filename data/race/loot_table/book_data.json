@@ -25,10 +25,10 @@
               "function": "minecraft:set_written_book_pages",
               "pages": [
                 {
-                  "text": "Gnome\n",
+                  "text": "Gnome      ",
                   "color": "dark_green",
                   "bold": true,
-                  "underlined": true,
+                  
                   "click_event": {
                     "action": "run_command",
                     "command": "/trigger gnome_become set -42"
@@ -45,7 +45,7 @@
                       "text": "Vampire\n",
                       "color": "dark_purple",
                       "bold": true,
-                      "underlined": true,
+                      
                       "click_event": {
                         "action": "run_command",
                         "command": "/trigger vampire_become set -42"
@@ -59,10 +59,10 @@
                       },
                       "extra": [
                         {
-                          "text": "Frog\n",
+                          "text": "\nFrog        ",
                           "color": "green",
                           "bold": true,
-                          "underlined": true,
+                          
                           "click_event": {
                             "action": "run_command",
                             "command": "/trigger frog_become set -42"
@@ -79,7 +79,7 @@
                               "text": "Dwarf\n",
                               "color": "gold",
                               "bold": true,
-                              "underlined": true,
+                              
                               "click_event": {
                                 "action": "run_command",
                                 "command": "/trigger dwarf_become set -42"
@@ -93,10 +93,10 @@
                               },
                               "extra": [
                                 {
-                                  "text": "Druid\n",
+                                  "text": "\nDruid        ",
                                   "color": "#6B2E00",
                                   "bold": true,
-                                  "underlined": true,
+                                  
                                   "click_event": {
                                     "action": "run_command",
                                     "command": "/trigger druid_become set -42"
@@ -113,7 +113,7 @@
                                       "text": "Deva\n",
                                       "color": "#cabd78",
                                       "bold": true,
-                                      "underlined": true,
+                                      
                                       "click_event": {
                                         "action": "run_command",
                                         "command": "/trigger deva_become set -42"
@@ -127,10 +127,10 @@
                                       },
                                       "extra": [
                                         {
-                                          "text": "Witch\n",
+                                          "text": "\nWitch\n",
                                           "color": "#8736e4",
                                           "bold": true,
-                                          "underlined": true,
+                                          
                                           "click_event": {
                                             "action": "run_command",
                                             "command": "/trigger witch_become set -42"
@@ -144,10 +144,10 @@
                                           },
                                           "extra": [
                                             {
-                                              "text": "\nRead about Race Traits\n",
+                                              "text": "\nRead about Race Traits\n\n",
                                               "color": "gray",
                                               "bold": true,
-                                              "underlined": true,
+                                              
                                               "click_event": {
                                                 "action": "open_url",
                                                 "url": "https://docs.google.com/spreadsheets/d/1lTEUOu0V8kvb8ZVFx3dPj7Qo1prDRK2bcWRVgu7aGkc/edit?gid=0#gid=0"
@@ -161,10 +161,10 @@
                                               },
                                               "extra": [
                                                 {
-                                                  "text": "Request a Race\n\n\n",
+                                                  "text": "Request a Race\n\n",
                                                   "color": "gray",
                                                   "bold": true,
-                                                  "underlined": true,
+                                                  
                                                   "click_event": {
                                                     "action": "open_url",
                                                     "url": "https://docs.google.com/forms/d/e/1FAIpQLSdda655lcg42mdtlR8o3Fosdkx1dAz2CHJl75ft8BHX4ZZVJQ/viewform?usp=sharing"
@@ -181,7 +181,7 @@
                                                       "text": "Human",
                                                       "color": "dark_gray",
                                                       "bold": true,
-                                                      "underlined": true,
+                                                      
                                                       "click_event": {
                                                         "action": "run_command",
                                                         "command": "/execute at @s run function race:reset_race"
