@@ -1,4 +1,35 @@
 playsound entity.experience_orb.pickup neutral @s
+scoreboard players reset @s deva_become 
+scoreboard players enable @s deva_become
+
+
+scoreboard players reset @s frog_become
+scoreboard players enable @s frog_become
+
+
+scoreboard players reset @s druid_become
+scoreboard players enable @s druid_become
+
+
+scoreboard players reset @s dwarf_become
+scoreboard players enable @s dwarf_become
+
+
+scoreboard players reset @s gnome_become
+scoreboard players enable @s gnome_become
+
+
+scoreboard players reset @s human_become
+scoreboard players enable @s human_become
+
+
+scoreboard players reset @s witch_become
+scoreboard players enable @s witch_become
+
+
+scoreboard players reset @s vampire_become
+scoreboard players enable @s vampire_become
+
 team leave @s
 effect clear @s
 advancement revoke @s only race:temp_race_adavancements/human_trigger
